@@ -5,9 +5,9 @@ Home Assistant custom sensor for YouLess LS120
 Based on the version of [Gerben Jongerius](https://bitbucket.org/jongsoftdev/youless) and the aditions of pdwonline.
 
 ## Installation
-1) create a folder called 'custom_components' if not exists into your Home Assistant configuration folder
-2) create a folder called 'youless' in the custom_components folder. 
-3) Download all files into this 'youless' folder
+1) Create a folder called `custom_components` if it doesn't exist in your Home Assistant configuration folder
+2) Create a folder called `youless` in the `custom_components` folder. 
+3) Download all files into this `youless` folder
 
 ## Available sensors
 
@@ -25,6 +25,8 @@ Based on the version of [Gerben Jongerius](https://bitbucket.org/jongsoftdev/you
 
 
 ## Configuration example
+
+Add the following configuration under the `sensors:` key in the `configuration.yml` file.
 
 ```yaml
   - platform: youless
